@@ -1,0 +1,12 @@
+prefix=d:/CREW_AI/venv/Library
+exec_prefix=d:/CREW_AI/venv/Library
+libdir=d:/CREW_AI/venv/Library/lib
+includedir=d:/CREW_AI/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
